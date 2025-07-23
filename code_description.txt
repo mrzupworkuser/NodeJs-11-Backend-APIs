@@ -1,0 +1,22 @@
+This code snippet outlines the backend APIs that I implemented for an online exam portal developed using Node.js, Express, and MongoDB. The APIs enable functionalities such as managing students, exams, and questionnaires, as well as conducting online exams and processing results.
+
+
+Features
+- Master Data Management: Set of APIs that returns the lists of Students, Teachers, Questions, etc. with options for pagination, search, and category filtering.
+- Support for Conducting Online Exams: Conduct online exams, calculate results, and return them to the users. Includes options for manual test review.
+- Alerts and Notifications: Background jobs to notify students and teachers about scheduled exams, results, reminders, and more.
+
+
+Validation:
+- All endpoints include input validation and error handling to ensure data integrity.
+
+
+Tech Stack:
+- Backend: Node.js, Express
+- Database: MongoDB
+
+
+Prerequisites:
+- Node.js
+- MongoDB
+- npm
